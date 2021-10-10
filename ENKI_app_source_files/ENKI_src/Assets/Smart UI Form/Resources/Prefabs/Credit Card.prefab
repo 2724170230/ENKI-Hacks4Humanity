@@ -1,0 +1,1243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7101941789960754807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101941789960754804}
+  - component: {fileID: 7101941789960754805}
+  m_Layer: 5
+  m_Name: Credit Card
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7101941789960754804
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941789960754807}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.465784, y: 1.465784, z: 0}
+  m_Children:
+  - {fileID: 7101941791315546161}
+  - {fileID: 7101941790100742039}
+  - {fileID: 7101941790623009767}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -936.46576}
+  m_SizeDelta: {x: 307, y: 43.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7101941789960754805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941789960754807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037377ad2a9de47c691816feb6af3621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableCustomDesign: 0
+  enableCustomAlignment: 0
+  isForm: 0
+  isTitleBackground: 0
+  isTitle: 0
+  isBackground: 0
+  isFormHolder: 0
+  isFieldsContainer: 0
+  isSubmit: 0
+  isSubmitText: 0
+  isPlaceholder: 0
+  isInputField: 1
+  isInputFieldHolder: 0
+  isDropdown: 0
+  isDropdownHolder: 0
+  isCustomText: 0
+  isCustomTextHolder: 0
+  isLabel: 0
+  isText: 0
+  isCheckboxContainer: 0
+  isRadioButtonsContainer: 0
+  isOptionsList: 0
+  isOption: 0
+  isChecker: 0
+  isMark: 0
+  isOptionBackground: 0
+  isRatingContainer: 0
+  isRatingHolder: 0
+  isRating: 0
+  isToggle: 0
+  isToggleHolder: 0
+  isToggleOption: 0
+  isSlider: 0
+  isSliderHolder: 0
+  isSliderPrefix: 0
+  isSliderPostfix: 0
+  isSliderValue: 0
+  isSliderHandle: 0
+  isSliderBackground: 0
+  isSliderFilledArea: 0
+  isDropdownTemplate: 0
+  isDropdownItem: 0
+  isDropDownArrow: 0
+  isCustomComments: 0
+  isCustomCommentsHolder: 0
+  isCustomFullName: 0
+  isCustomAddress: 0
+  isCustomBirthday: 0
+--- !u!1 &7101941790100742038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101941790100742039}
+  - component: {fileID: 7101941790100742040}
+  - component: {fileID: 7101941790100742043}
+  - component: {fileID: 7101941790100742042}
+  - component: {fileID: 7101941790100742037}
+  - component: {fileID: 7101941790100742036}
+  m_Layer: 5
+  m_Name: Input Field Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7101941790100742039
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790100742038}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.01, y: 1.01, z: 0}
+  m_Children:
+  - {fileID: 7101941790416917901}
+  - {fileID: 7101941790226201118}
+  m_Father: {fileID: 7101941789960754804}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -57.61, y: -3}
+  m_SizeDelta: {x: 201.8, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7101941790100742040
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790100742038}
+  m_CullTransparentMesh: 0
+--- !u!114 &7101941790100742043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790100742038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 0.99999994}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 4.2
+--- !u!114 &7101941790100742042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790100742038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 7101941790100742043}
+  m_TextComponent: {fileID: 7101941790226201116}
+  m_Placeholder: {fileID: 7101941790416917907}
+  m_ContentType: 2
+  m_InputType: 0
+  m_AsteriskChar: 42
+  m_KeyboardType: 4
+  m_LineType: 0
+  m_HideMobileInput: 0
+  m_CharacterValidation: 1
+  m_CharacterLimit: 16
+  m_OnEndEdit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.InputField+SubmitEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.InputField+OnChangeEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_CustomCaretColor: 0
+  m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
+  m_Text: 
+  m_CaretBlinkRate: 0.85
+  m_CaretWidth: 5
+  m_ReadOnly: 0
+--- !u!114 &7101941790100742037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790100742038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037377ad2a9de47c691816feb6af3621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableCustomDesign: 1
+  enableCustomAlignment: 1
+  isForm: 0
+  isTitleBackground: 0
+  isTitle: 0
+  isBackground: 0
+  isFormHolder: 0
+  isFieldsContainer: 0
+  isSubmit: 0
+  isSubmitText: 0
+  isPlaceholder: 0
+  isInputField: 0
+  isInputFieldHolder: 1
+  isDropdown: 0
+  isDropdownHolder: 0
+  isCustomText: 0
+  isCustomTextHolder: 0
+  isLabel: 0
+  isText: 0
+  isCheckboxContainer: 0
+  isRadioButtonsContainer: 0
+  isOptionsList: 0
+  isOption: 0
+  isChecker: 0
+  isMark: 0
+  isOptionBackground: 0
+  isRatingContainer: 0
+  isRatingHolder: 0
+  isRating: 0
+  isToggle: 0
+  isToggleHolder: 0
+  isToggleOption: 0
+  isSlider: 0
+  isSliderHolder: 0
+  isSliderPrefix: 0
+  isSliderPostfix: 0
+  isSliderValue: 0
+  isSliderHandle: 0
+  isSliderBackground: 0
+  isSliderFilledArea: 0
+  isDropdownTemplate: 0
+  isDropdownItem: 0
+  isDropDownArrow: 0
+  isCustomComments: 0
+  isCustomCommentsHolder: 0
+  isCustomFullName: 0
+  isCustomAddress: 0
+  isCustomBirthday: 0
+--- !u!114 &7101941790100742036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790100742038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 198a70ec70f7041ac82ddf35b7cd20e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  characterLimit: 16
+--- !u!1 &7101941790226201113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101941790226201118}
+  - component: {fileID: 7101941790226201117}
+  - component: {fileID: 7101941790226201116}
+  - component: {fileID: 7101941790226201119}
+  m_Layer: 5
+  m_Name: Input Field Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7101941790226201118
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790226201113}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7101941790100742039}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 4.11, y: 0.22000122}
+  m_SizeDelta: {x: 627.64, y: 159.07}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7101941790226201117
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790226201113}
+  m_CullTransparentMesh: 0
+--- !u!114 &7101941790226201116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790226201113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 222}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 90
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 6
+    m_MaxSize: 90
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!114 &7101941790226201119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790226201113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037377ad2a9de47c691816feb6af3621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableCustomDesign: 0
+  enableCustomAlignment: 0
+  isForm: 0
+  isTitleBackground: 0
+  isTitle: 0
+  isBackground: 0
+  isFormHolder: 0
+  isFieldsContainer: 0
+  isSubmit: 0
+  isSubmitText: 0
+  isPlaceholder: 0
+  isInputField: 0
+  isInputFieldHolder: 0
+  isDropdown: 0
+  isDropdownHolder: 0
+  isCustomText: 0
+  isCustomTextHolder: 0
+  isLabel: 0
+  isText: 1
+  isCheckboxContainer: 0
+  isRadioButtonsContainer: 0
+  isOptionsList: 0
+  isOption: 0
+  isChecker: 0
+  isMark: 0
+  isOptionBackground: 0
+  isRatingContainer: 0
+  isRatingHolder: 0
+  isRating: 0
+  isToggle: 0
+  isToggleHolder: 0
+  isToggleOption: 0
+  isSlider: 0
+  isSliderHolder: 0
+  isSliderPrefix: 0
+  isSliderPostfix: 0
+  isSliderValue: 0
+  isSliderHandle: 0
+  isSliderBackground: 0
+  isSliderFilledArea: 0
+  isDropdownTemplate: 0
+  isDropdownItem: 0
+  isDropDownArrow: 0
+  isCustomComments: 0
+  isCustomCommentsHolder: 0
+  isCustomFullName: 0
+  isCustomAddress: 0
+  isCustomBirthday: 0
+--- !u!1 &7101941790307595569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101941790307595574}
+  - component: {fileID: 7101941790307595573}
+  - component: {fileID: 7101941790307595572}
+  - component: {fileID: 7101941790307595575}
+  m_Layer: 5
+  m_Name: Placeholder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7101941790307595574
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790307595569}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0}
+  m_Children: []
+  m_Father: {fileID: 7101941790623009767}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.77, y: 0.0000019073486}
+  m_SizeDelta: {x: 299.54, y: 193.16}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7101941790307595573
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790307595569}
+  m_CullTransparentMesh: 0
+--- !u!114 &7101941790307595572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790307595569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 90
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 90
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Pin
+--- !u!114 &7101941790307595575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790307595569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037377ad2a9de47c691816feb6af3621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableCustomDesign: 0
+  enableCustomAlignment: 0
+  isForm: 0
+  isTitleBackground: 0
+  isTitle: 0
+  isBackground: 0
+  isFormHolder: 0
+  isFieldsContainer: 0
+  isSubmit: 0
+  isSubmitText: 0
+  isPlaceholder: 1
+  isInputField: 0
+  isInputFieldHolder: 0
+  isDropdown: 0
+  isDropdownHolder: 0
+  isCustomText: 0
+  isCustomTextHolder: 0
+  isLabel: 0
+  isText: 0
+  isCheckboxContainer: 0
+  isRadioButtonsContainer: 0
+  isOptionsList: 0
+  isOption: 0
+  isChecker: 0
+  isMark: 0
+  isOptionBackground: 0
+  isRatingContainer: 0
+  isRatingHolder: 0
+  isRating: 0
+  isToggle: 0
+  isToggleHolder: 0
+  isToggleOption: 0
+  isSlider: 0
+  isSliderHolder: 0
+  isSliderPrefix: 0
+  isSliderPostfix: 0
+  isSliderValue: 0
+  isSliderHandle: 0
+  isSliderBackground: 0
+  isSliderFilledArea: 0
+  isDropdownTemplate: 0
+  isDropdownItem: 0
+  isDropDownArrow: 0
+  isCustomComments: 0
+  isCustomCommentsHolder: 0
+  isCustomFullName: 0
+  isCustomAddress: 0
+  isCustomBirthday: 0
+--- !u!1 &7101941790416917900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101941790416917901}
+  - component: {fileID: 7101941790416917904}
+  - component: {fileID: 7101941790416917907}
+  - component: {fileID: 7101941790416917906}
+  m_Layer: 5
+  m_Name: Placeholder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7101941790416917901
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790416917900}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0}
+  m_Children: []
+  m_Father: {fileID: 7101941790100742039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.82, y: 0.0000019073486}
+  m_SizeDelta: {x: 826.9, y: 193.16}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7101941790416917904
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790416917900}
+  m_CullTransparentMesh: 0
+--- !u!114 &7101941790416917907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790416917900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 90
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 90
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Card number
+--- !u!114 &7101941790416917906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790416917900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037377ad2a9de47c691816feb6af3621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableCustomDesign: 0
+  enableCustomAlignment: 0
+  isForm: 0
+  isTitleBackground: 0
+  isTitle: 0
+  isBackground: 0
+  isFormHolder: 0
+  isFieldsContainer: 0
+  isSubmit: 0
+  isSubmitText: 0
+  isPlaceholder: 1
+  isInputField: 0
+  isInputFieldHolder: 0
+  isDropdown: 0
+  isDropdownHolder: 0
+  isCustomText: 0
+  isCustomTextHolder: 0
+  isLabel: 0
+  isText: 0
+  isCheckboxContainer: 0
+  isRadioButtonsContainer: 0
+  isOptionsList: 0
+  isOption: 0
+  isChecker: 0
+  isMark: 0
+  isOptionBackground: 0
+  isRatingContainer: 0
+  isRatingHolder: 0
+  isRating: 0
+  isToggle: 0
+  isToggleHolder: 0
+  isToggleOption: 0
+  isSlider: 0
+  isSliderHolder: 0
+  isSliderPrefix: 0
+  isSliderPostfix: 0
+  isSliderValue: 0
+  isSliderHandle: 0
+  isSliderBackground: 0
+  isSliderFilledArea: 0
+  isDropdownTemplate: 0
+  isDropdownItem: 0
+  isDropDownArrow: 0
+  isCustomComments: 0
+  isCustomCommentsHolder: 0
+  isCustomFullName: 0
+  isCustomAddress: 0
+  isCustomBirthday: 0
+--- !u!1 &7101941790623009766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101941790623009767}
+  - component: {fileID: 7101941790623009768}
+  - component: {fileID: 7101941790623009771}
+  - component: {fileID: 7101941790623009770}
+  - component: {fileID: 7101941790623009765}
+  - component: {fileID: 7101941790623009764}
+  m_Layer: 5
+  m_Name: Input Field Holder (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7101941790623009767
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790623009766}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0099982, y: 1.0099982, z: 0}
+  m_Children:
+  - {fileID: 7101941790307595574}
+  - {fileID: 7101941791227013188}
+  m_Father: {fileID: 7101941789960754804}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 106.4, y: -2.999939}
+  m_SizeDelta: {x: 87.95, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7101941790623009768
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790623009766}
+  m_CullTransparentMesh: 0
+--- !u!114 &7101941790623009771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790623009766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 0.99999994}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 4.2
+--- !u!114 &7101941790623009770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790623009766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 7101941790623009771}
+  m_TextComponent: {fileID: 7101941791227013194}
+  m_Placeholder: {fileID: 7101941790307595572}
+  m_ContentType: 2
+  m_InputType: 0
+  m_AsteriskChar: 42
+  m_KeyboardType: 4
+  m_LineType: 0
+  m_HideMobileInput: 0
+  m_CharacterValidation: 1
+  m_CharacterLimit: 3
+  m_OnEndEdit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.InputField+SubmitEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.InputField+OnChangeEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_CustomCaretColor: 0
+  m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
+  m_Text: 
+  m_CaretBlinkRate: 0.85
+  m_CaretWidth: 5
+  m_ReadOnly: 0
+--- !u!114 &7101941790623009765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790623009766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037377ad2a9de47c691816feb6af3621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableCustomDesign: 1
+  enableCustomAlignment: 1
+  isForm: 0
+  isTitleBackground: 0
+  isTitle: 0
+  isBackground: 0
+  isFormHolder: 0
+  isFieldsContainer: 0
+  isSubmit: 0
+  isSubmitText: 0
+  isPlaceholder: 0
+  isInputField: 0
+  isInputFieldHolder: 1
+  isDropdown: 0
+  isDropdownHolder: 0
+  isCustomText: 0
+  isCustomTextHolder: 0
+  isLabel: 0
+  isText: 0
+  isCheckboxContainer: 0
+  isRadioButtonsContainer: 0
+  isOptionsList: 0
+  isOption: 0
+  isChecker: 0
+  isMark: 0
+  isOptionBackground: 0
+  isRatingContainer: 0
+  isRatingHolder: 0
+  isRating: 0
+  isToggle: 0
+  isToggleHolder: 0
+  isToggleOption: 0
+  isSlider: 0
+  isSliderHolder: 0
+  isSliderPrefix: 0
+  isSliderPostfix: 0
+  isSliderValue: 0
+  isSliderHandle: 0
+  isSliderBackground: 0
+  isSliderFilledArea: 0
+  isDropdownTemplate: 0
+  isDropdownItem: 0
+  isDropDownArrow: 0
+  isCustomComments: 0
+  isCustomCommentsHolder: 0
+  isCustomFullName: 0
+  isCustomAddress: 0
+  isCustomBirthday: 0
+--- !u!114 &7101941790623009764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941790623009766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 198a70ec70f7041ac82ddf35b7cd20e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  characterLimit: 3
+--- !u!1 &7101941791227013191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101941791227013188}
+  - component: {fileID: 7101941791227013195}
+  - component: {fileID: 7101941791227013194}
+  - component: {fileID: 7101941791227013189}
+  m_Layer: 5
+  m_Name: Input Field Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7101941791227013188
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941791227013191}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7101941790623009767}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 2.56, y: 0.22000122}
+  m_SizeDelta: {x: 213.09, y: 159.07}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7101941791227013195
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941791227013191}
+  m_CullTransparentMesh: 0
+--- !u!114 &7101941791227013194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941791227013191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 222}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 90
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 6
+    m_MaxSize: 90
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!114 &7101941791227013189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941791227013191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037377ad2a9de47c691816feb6af3621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableCustomDesign: 0
+  enableCustomAlignment: 0
+  isForm: 0
+  isTitleBackground: 0
+  isTitle: 0
+  isBackground: 0
+  isFormHolder: 0
+  isFieldsContainer: 0
+  isSubmit: 0
+  isSubmitText: 0
+  isPlaceholder: 0
+  isInputField: 0
+  isInputFieldHolder: 0
+  isDropdown: 0
+  isDropdownHolder: 0
+  isCustomText: 0
+  isCustomTextHolder: 0
+  isLabel: 0
+  isText: 1
+  isCheckboxContainer: 0
+  isRadioButtonsContainer: 0
+  isOptionsList: 0
+  isOption: 0
+  isChecker: 0
+  isMark: 0
+  isOptionBackground: 0
+  isRatingContainer: 0
+  isRatingHolder: 0
+  isRating: 0
+  isToggle: 0
+  isToggleHolder: 0
+  isToggleOption: 0
+  isSlider: 0
+  isSliderHolder: 0
+  isSliderPrefix: 0
+  isSliderPostfix: 0
+  isSliderValue: 0
+  isSliderHandle: 0
+  isSliderBackground: 0
+  isSliderFilledArea: 0
+  isDropdownTemplate: 0
+  isDropdownItem: 0
+  isDropDownArrow: 0
+  isCustomComments: 0
+  isCustomCommentsHolder: 0
+  isCustomFullName: 0
+  isCustomAddress: 0
+  isCustomBirthday: 0
+--- !u!1 &7101941791315546160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101941791315546161}
+  - component: {fileID: 7101941791315546164}
+  - component: {fileID: 7101941791315546167}
+  - component: {fileID: 7101941791315546166}
+  m_Layer: 5
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7101941791315546161
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941791315546160}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0}
+  m_Children: []
+  m_Father: {fileID: 7101941789960754804}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 159.10005, y: 43.4}
+  m_SizeDelta: {x: 1545.2, y: 177.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7101941791315546164
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941791315546160}
+  m_CullTransparentMesh: 0
+--- !u!114 &7101941791315546167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941791315546160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 100
+    m_Alignment: 6
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Master Card / Visa
+--- !u!114 &7101941791315546166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101941791315546160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037377ad2a9de47c691816feb6af3621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableCustomDesign: 0
+  enableCustomAlignment: 0
+  isForm: 0
+  isTitleBackground: 0
+  isTitle: 0
+  isBackground: 0
+  isFormHolder: 0
+  isFieldsContainer: 0
+  isSubmit: 0
+  isSubmitText: 0
+  isPlaceholder: 0
+  isInputField: 0
+  isInputFieldHolder: 0
+  isDropdown: 0
+  isDropdownHolder: 0
+  isCustomText: 0
+  isCustomTextHolder: 0
+  isLabel: 1
+  isText: 0
+  isCheckboxContainer: 0
+  isRadioButtonsContainer: 0
+  isOptionsList: 0
+  isOption: 0
+  isChecker: 0
+  isMark: 0
+  isOptionBackground: 0
+  isRatingContainer: 0
+  isRatingHolder: 0
+  isRating: 0
+  isToggle: 0
+  isToggleHolder: 0
+  isToggleOption: 0
+  isSlider: 0
+  isSliderHolder: 0
+  isSliderPrefix: 0
+  isSliderPostfix: 0
+  isSliderValue: 0
+  isSliderHandle: 0
+  isSliderBackground: 0
+  isSliderFilledArea: 0
+  isDropdownTemplate: 0
+  isDropdownItem: 0
+  isDropDownArrow: 0
+  isCustomComments: 0
+  isCustomCommentsHolder: 0
+  isCustomFullName: 0
+  isCustomAddress: 0
+  isCustomBirthday: 0
